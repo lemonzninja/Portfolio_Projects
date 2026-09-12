@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Squid\Documents\Projects\Programming\Portfolio_Projects\Games\Retro_Games\Paddel-Ball\build\CMakeFiles\31f68fb40ae1f9d4d96eb713b4351571\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9D4C358C-822A-353C-A5F4-761EEA8E97F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Squid/Documents/Projects/Programming/Portfolio_Projects/Games/Retro_Games/Paddel-Ball/build/cmake_install.cmake",
+		"C:/Users/Squid/Documents/Projects/Programming/Portfolio_Projects/Games/Retro_Games/Paddel-Ball/build/libs/raylib/cmake_install.cmake",
+		"C:/Users/Squid/Documents/Projects/Programming/Portfolio_Projects/Games/Retro_Games/Paddel-Ball/build/libs/raylib/raylib/cmake_install.cmake",
+		"C:/Users/Squid/Documents/Projects/Programming/Portfolio_Projects/Games/Retro_Games/Paddel-Ball/build/libs/raylib/raylib/external/glfw/cmake_install.cmake",
+		"C:/Users/Squid/Documents/Projects/Programming/Portfolio_Projects/Games/Retro_Games/Paddel-Ball/build/libs/raylib/raylib/external/glfw/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

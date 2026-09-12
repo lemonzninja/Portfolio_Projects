@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Squid\Documents\Projects\Programming\Portfolio_Projects\Games\Retro_Games\Paddel-Ball\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Squid\Documents\Projects\Programming\Portfolio_Projects\Games\Retro_Games\Paddel-Ball\Screen_Manager\ScreenManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Squid\Documents\Projects\Programming\Portfolio_Projects\Games\Retro_Games\Paddel-Ball\Screen_Manager\Screens\LogoScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Squid\Documents\Projects\Programming\Portfolio_Projects\Games\Retro_Games\Paddel-Ball\Screen_Manager\Screens\TitleScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Squid\Documents\Projects\Programming\Portfolio_Projects\Games\Retro_Games\Paddel-Ball\Screen_Manager\Screens\MainMenuScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Squid\Documents\Projects\Programming\Portfolio_Projects\Games\Retro_Games\Paddel-Ball\Screen_Manager\Screens\GameScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Squid\Documents\Projects\Programming\Portfolio_Projects\Games\Retro_Games\Paddel-Ball\Screen_Manager\ScreenManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Squid\Documents\Projects\Programming\Portfolio_Projects\Games\Retro_Games\Paddel-Ball\Screen_Manager\Screens\Screens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Squid\Documents\Projects\Programming\Portfolio_Projects\Games\Retro_Games\Paddel-Ball\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D1F25105-CA18-3510-AB6B-48D18315D764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E6AE6632-E0C9-3B17-9559-9699248E94B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

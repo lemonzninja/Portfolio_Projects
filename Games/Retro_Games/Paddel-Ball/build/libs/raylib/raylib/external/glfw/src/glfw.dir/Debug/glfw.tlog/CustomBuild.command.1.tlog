@@ -1,0 +1,10 @@
+^C:\USERS\SQUID\DOCUMENTS\PROJECTS\PROGRAMMING\PORTFOLIO_PROJECTS\GAMES\RETRO_GAMES\PADDEL-BALL\LIBS\RAYLIB\SRC\EXTERNAL\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Squid/Documents/Projects/Programming/Portfolio_Projects/Games/Retro_Games/Paddel-Ball -BC:/Users/Squid/Documents/Projects/Programming/Portfolio_Projects/Games/Retro_Games/Paddel-Ball/build --check-stamp-file C:/Users/Squid/Documents/Projects/Programming/Portfolio_Projects/Games/Retro_Games/Paddel-Ball/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
