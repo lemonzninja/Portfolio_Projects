@@ -3,3 +3,5 @@
 //
 
 #include "GameManager.h"
+
+GameManager gameManager;

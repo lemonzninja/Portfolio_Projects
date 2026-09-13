@@ -6,17 +6,10 @@
 
 #include "raylib.h"
 #include "../GameObjects/Ball/Ball.h"
-static Ball ball;
-
-
-static float ballStartX;
-static float ballStartY;
-static float ballSize;
-static Color ballColor;
-static float ballSpeed;
 
 class GameManager {
 public:
+    Ball ball;
     float ballStartX;
     float ballStartY;
     float ballSize;
@@ -25,5 +18,5 @@ public:
 
 };
 
-
+extern GameManager gameManager;
 #endif //PADDEL_BALL_GAMEMANAGER_H

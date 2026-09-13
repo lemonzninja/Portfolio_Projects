@@ -7,20 +7,19 @@
 #include "../../Game_Manager/GameManager.h"
 
 void Init_Game_Screen() {
-    ballStartX = 400.0f;
-    ballStartY = 250.0f;
-    ballSize = 10.0f;
-    ballColor = WHITE;
-    ballSpeed = 100.0f;
+   gameManager.ballStartX = 400.0f;
+   gameManager.ballStartY = 250.0f;
+   gameManager.ballSize = 10.0f;
+   gameManager.ballColor = WHITE;
+   gameManager.ballSpeed = 100.0f;
 
-    ball.ball_velocity.x = ballSpeed;
-    ball.Init_Ball(ballStartX, ballStartY, ballSize, ballColor);
+    gameManager.ball.ball_velocity.x = gameManager.ballSpeed;
+    gameManager.ball.Init_Ball(gameManager.ballStartX, gameManager.ballStartY, gameManager.ballSize, gameManager.ballColor);
 }
 void Update_Game_Screen() {
-    ball.Update_Ball();
+    gameManager.ball.Update_Ball();
 }
 void Draw_Game_Screen() {
     ClearBackground(BLACK);
-
-   ball.Draw_Ball();
+   gameManager.ball.Draw_Ball();
 }
