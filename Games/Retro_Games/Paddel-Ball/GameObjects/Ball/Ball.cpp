@@ -14,6 +14,23 @@ void Ball::Update_Ball() {
     const float dt = GetFrameTime();
     ball_position.x += ball_velocity.x * dt;
     ball_position.y += ball_velocity.y * dt;
+
+    if (ball_position.x <= 0) {
+        ball_position.x = 0;
+        ball_velocity.x *= -1;
+    }
+    if (ball_position.x + ball_Size >= GetScreenWidth()) {
+        ball_position.x = GetScreenWidth() - ball_Size;
+        ball_velocity.x *= -1;
+    }
+    if (ball_position.y <= 0) {
+        ball_position.y = 0;
+        ball_velocity.y *= -1;
+    }
+    if (ball_position.y + ball_Size >= GetScreenHeight()) {
+        ball_position.y = GetScreenHeight() - ball_Size;
+        ball_velocity.y *= -1;
+    }
 }
 
 void Ball::Draw_Ball() const {

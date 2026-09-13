@@ -9,8 +9,6 @@
 class Ball {
 
 public:
-    // variables
-
     Vector2 ball_position{};
     Vector2 ball_velocity{};
     float ball_Size{};

@@ -10,11 +10,11 @@
 class GameManager {
 public:
     Ball ball;
-    float ballStartX;
-    float ballStartY;
-    float ballSize;
-    Color ballColor;
-    float ballSpeed;
+    float ballStartX{};
+    float ballStartY{};
+    float ballSize{};
+    Color ballColor{};
+    float ballSpeed{};
 
 };
 
